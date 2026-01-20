@@ -12,13 +12,15 @@ Count vehicles per lane dynamically
 Allocate green signal duration based on traffic density
 Reduce congestion and idle waiting time at intersections
 
-🧠 Technologies Used
+## 🧠 Technologies Used
+- Python
+- YOLOv8 (Ultralytics)
+- OpenCV
+- PyTorch
+- NumPy
 
-Python
-YOLOv8 (Ultralytics)
-OpenCV
-PyTorch
-NumPy
+---
+
 
 ## 🏗 Project Structure
 ```
@@ -45,17 +47,26 @@ Smart-Control-of-Traffic-Light/
 │── .gitignore
 ```
 
-⚙️ Installation
-1️⃣ Clone the Repository
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Dhruvpatel-1015/Smart-Control-of-Traffic-Light.git
 cd Smart-Control-of-Traffic-Light
+```
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+
+---
 
 ▶️ How to Run
 🔹 Run Vehicle Detection
@@ -64,36 +75,38 @@ python src/detect.py
 🔹 Run Traffic Signal Logic
 python src/traffic_controller.py
 
-📊 Features
+## 📊 Features
+- Custom dataset annotation and training pipeline
+- Real-time vehicle detection
+- Lane-wise traffic density estimation
+- Dynamic green light duration control
+- Modular and scalable project structure
 
-Custom dataset annotation and training pipeline
-Real-time vehicle detection
-Lane-wise traffic density estimation
-Dynamic green light duration control
-Modular and scalable project structure
+---
 
-🧪 Dataset
-
-The dataset used in this project was custom collected and manually annotated.
+## 🧪 Dataset
+The dataset used in this project was custom collected and manually annotated.  
 Due to privacy and ownership constraints, it is not publicly shared, but the training pipeline is fully reproducible.
 
-🚀 Results
+---
 
-Successfully detected multiple vehicle classes in real-time
-Demonstrated adaptive signal timing based on traffic density
-Reduced idle signal time in simulated scenarios
+## 🚀 Results
+- Successfully detected multiple vehicle classes in real-time
+- Demonstrated adaptive signal timing based on traffic density
+- Reduced idle signal time in simulated scenarios
 
-🔮 Future Enhancements
+---
 
-Multi-camera intersection support
-Emergency vehicle prioritization
-Edge-device deployment (Jetson Nano / Raspberry Pi)
-Web dashboard for real-time monitoring
+## 🔮 Future Enhancements
+- Multi-camera intersection support
+- Emergency vehicle prioritization
+- Edge-device deployment (Jetson Nano / Raspberry Pi)
+- Web dashboard for real-time monitoring
 
 👨‍💻 Author
 Dhruv Patel
 Computer Science Graduate | AI & Computer Vision Enthusiast
 GitHub: https://github.com/Dhruvpatel-1015
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
+This project is licensed under the **MIT License**.
