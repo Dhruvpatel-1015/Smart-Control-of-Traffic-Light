@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model weights (optional — uncomment if you want to exclude)
+# models/*.pt
+
+# Large datasets
+data/
+dataset/
