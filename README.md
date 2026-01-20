@@ -20,7 +20,8 @@ OpenCV
 PyTorch
 NumPy
 
-🏗 Project Structure
+## 🏗 Project Structure
+```
 Smart-Control-of-Traffic-Light/
 │── models/
 │   └── best.pt
@@ -42,6 +43,7 @@ Smart-Control-of-Traffic-Light/
 │── README.md
 │── requirements.txt
 │── .gitignore
+```
 
 ⚙️ Installation
 1️⃣ Clone the Repository
